@@ -10,8 +10,8 @@ export const CampusHeader = () => {
               <GraduationCap className="w-6 h-6 text-primary-foreground" />
             </div>
             <div>
-              <h1 className="text-xl font-bold text-foreground">Campus AI Assistant</h1>
-              <p className="text-sm text-muted-foreground">Your 24/7 campus information guide</p>
+              <h1 className="text-xl font-bold text-foreground">Manikanta AI Assistant</h1>
+              <p className="text-sm text-muted-foreground">Your 24/7 manikanta information guide</p>
             </div>
           </div>
           

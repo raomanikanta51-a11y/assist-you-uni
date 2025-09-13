@@ -23,7 +23,7 @@ const QUICK_ACTIONS = [
   {
     icon: Utensils,
     label: "Dining Options",
-    query: "What dining options are available on campus today?",
+    query: "What dining options are available on manikanta today?",
     color: "text-accent",
   },
   {
@@ -34,8 +34,8 @@ const QUICK_ACTIONS = [
   },
   {
     icon: MapPin,
-    label: "Campus Facilities",
-    query: "Tell me about campus facilities like gym, recreation center, and study spaces.",
+    label: "Manikanta Facilities",
+    query: "Tell me about manikanta facilities like gym, recreation center, and study spaces.",
     color: "text-warning",
   },
   {
@@ -47,7 +47,7 @@ const QUICK_ACTIONS = [
   {
     icon: Calendar,
     label: "Events & Activities",
-    query: "What events and activities are happening on campus this week?",
+    query: "What events and activities are happening on manikanta this week?",
     color: "text-accent",
   },
 ];

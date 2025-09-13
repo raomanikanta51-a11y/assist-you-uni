@@ -14,11 +14,11 @@ const Index = () => {
           <div className="mb-4">
             <div className="text-center py-8">
               <h2 className="text-2xl font-bold text-foreground mb-2">
-                Welcome to Campus AI Assistant
+                Welcome to Manikanta AI Assistant
               </h2>
               <p className="text-muted-foreground max-w-2xl mx-auto">
-                Get instant answers about class schedules, campus facilities, dining options, 
-                library services, and administrative procedures. Ask me anything about campus life!
+                Get instant answers about class schedules, manikanta facilities, dining options, 
+                library services, and administrative procedures. Ask me anything about manikanta life!
               </p>
             </div>
             

@@ -17,14 +17,14 @@ const SAMPLE_RESPONSES = [
   "The dining hall serves breakfast from 7:00-10:00 AM, lunch from 11:30 AM-2:30 PM, and dinner from 5:00-8:00 PM. Today's special is grilled salmon with quinoa!",
   "The student recreation center has a gym, pool, basketball courts, and fitness classes. It's open 6:00 AM to 10:00 PM daily with your student ID.",
   "For course registration, log into the student portal and select 'Course Registration.' The spring semester registration opens December 1st for seniors, December 3rd for juniors.",
-  "The campus shuttle runs every 15 minutes between residence halls and academic buildings from 7:00 AM to 11:00 PM. Download the CampusTransit app for real-time tracking.",
+  "The manikanta shuttle runs every 15 minutes between residence halls and academic buildings from 7:00 AM to 11:00 PM. Download the ManikanatTransit app for real-time tracking.",
 ];
 
 export const ChatInterface = () => {
   const [messages, setMessages] = useState<Message[]>([
     {
       id: "1",
-      text: "Hi! I'm your campus AI assistant. I can help you with schedules, facilities, dining options, library services, and administrative procedures. What would you like to know?",
+      text: "Hi! I'm your manikanta AI assistant. I can help you with schedules, facilities, dining options, library services, and administrative procedures. What would you like to know?",
       isUser: false,
       timestamp: new Date(),
     },
@@ -116,7 +116,7 @@ export const ChatInterface = () => {
             value={inputValue}
             onChange={(e) => setInputValue(e.target.value)}
             onKeyPress={handleKeyPress}
-            placeholder="Ask about schedules, facilities, dining, or campus services..."
+            placeholder="Ask about schedules, facilities, dining, or manikanta services..."
             className="flex-1"
             disabled={isTyping}
           />
